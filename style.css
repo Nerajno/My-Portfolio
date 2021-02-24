@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(247, 241, 241);
+}
+header{
+    display:flex;
+    justify-content: space-evenly;
+
+}
+.banner{
+    height:150px;
+    background-color:rgb(94, 94, 241);
+    display:block;
+   text-align: center;
+   padding-top: 15px;
+   
+}
+.front-center{
+    display:block;
+    text-align: center;
+    height:300px;
+    padding-top: 20rem;
+}
+.projects{
+    display:flex;
+    justify-content: space-evenly;
+}
+.btn{
+    background-color: darkgrey;
+    border-radius: 50%;
+    
+}
