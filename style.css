@@ -16,30 +16,65 @@ body{
     background-size: cover;
     height:100vh; 
     
+    
 }
 
 .text{
     color:inherit;
     display:block;
     position: absolute;
+    text-align: center;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
 
 }
 
+#projects{
+    height:100vh;
+    padding-top: 5rem;
+    text-align: center;
+    
+
+}
+#project-title{
+    padding-bottom: 5rem;
+}   
 
 .card-group{
     display:flex;
     justify-content: space-evenly;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
     
 }
 .card-group .card{
-    background-color:rgb(114, 175, 157)
+    background-color:rgb(114, 175, 157);
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 3px solid white;
+    box-shadow: 5px 10px #525050;
+
+   
 }
-#project-title{
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+#aboutMe{
+    background: url("images/cool-background.png");
+    height:100vh;
+    padding-top: 5rem;
     
+}
+.aboutMeTitle{
+    text-align: center;
+    padding-bottom: 5rem;
+}
+.me{
+    /* text-align: center; */
+    margin:auto;
+    background-color:rgb(114, 175, 157);
+    width:400px;
+    height:400px;
+    padding:20px;
+    border: 3px solid white;
+    box-shadow: 5px 10px #525050;
 }
