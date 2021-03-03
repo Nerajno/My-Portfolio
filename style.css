@@ -5,8 +5,14 @@ body{
 .navbar{
     background-color:rgb(114, 175, 157);
     position:fixed;
-    width:100%;   
+    width:100%;  
+ 
     
+}
+.navbar ul{
+    display:flex;
+    list-style: none;
+
 }
 
 #front-center{
