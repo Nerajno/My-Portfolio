@@ -3,38 +3,51 @@ body{
     color:white;
 }
 
+
+/* NAV BAR LINKS */
 .navbar{
     background-color:rgb(114, 175, 157);
     position:fixed;
     width:100%; 
-    height:auto; 
- 
-    
+    /* height:auto;  */ 
 }
 .navbar ul{
     display:flex;
     list-style: none;
+}
 
+.active {
+    font-weight: 600;
+    font-size: larger;
+}
+
+.active:hover, .nav-link:hover{
+    color: white;
+}
+
+.nav-links{
+    margin-bottom: 0;
+}
+
+section{
+    
 }
 
 #front-center{
-    /* background: url( "https://images.unsplash.com/photo-1613427924070-d03cbf10bb3e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80") no-repeat center center fixed; */
-    /* background: url("https://images.unsplash.com/photo-1564325724739-bae0bd08762c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8c2NpZW5jZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"); */
     background: url("https://images.unsplash.com/photo-1495592822108-9e6261896da8?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzJ8fHNjaWVuY2V8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
     background-size: cover;
     height:100vh; 
-   
-    
-    
+    /* position: relative; */
 }
 
-.text{
+.display-text{
     color:inherit;
-    display:block;
+    /* display:relative; */
     position: absolute;
     text-align: center;
-    top: 30%;
+    top: 50%;
     left: 50%;
+    margin: auto;
     transform: translate(-50%, -50%);
 
 }
@@ -52,13 +65,11 @@ h3{
 }   
 
 .card-group{
-    
+    width: 80vw;  
     justify-content: space-evenly;
     padding-left: 2rem;
     padding-right: 2rem;
-    
-    
-    
+    margin: auto;
 }
 .card-group .card{
     background-color:rgb(114, 175, 157);
@@ -67,10 +78,13 @@ h3{
     padding-right: 10px;
     border: 3px solid white;
     box-shadow: 5px 10px #525050;
-
+    margin-right: 10px;
    
 }
 
+.card:hover{
+    color:rgb(3, 20, 6);
+}
 
 #aboutMe{
     background: url("images/cool-background.png");
@@ -80,15 +94,15 @@ h3{
     
 }
 
-.me img{
+.personal-info img{
     max-width: 100%;
     height:auto;
 }
 
    
 
-.me{
-    /* text-align: center; */
+.personal-info{
+    list-style: none;
     margin:auto;
     background-color:rgb(114, 175, 157);
     width:25%;
@@ -97,6 +111,7 @@ h3{
     border: 3px solid white;
     box-shadow: 5px 10px #525050;
 }
+
 #contactMe{
     height:100vh;
     padding-top: 5rem;
